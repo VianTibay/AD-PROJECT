@@ -6,11 +6,10 @@ use App\Controllers\BaseController;
 
 class User extends BaseController
 {
-    public function index(): string
+    public function landing(): string
     {
-        // code here
-    return view('user/landing');
+        return view('user/landing');
     }
+  
 
 }
-// Template Controller
