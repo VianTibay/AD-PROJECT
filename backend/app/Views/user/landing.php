@@ -18,12 +18,38 @@
             Main_Page
         </a>
         <br>
-        <a href="/user"
+        <a href="/user/login"
            class="inline-block px-6 py-3 rounded-lg bg-white text-black font-semibold shadow transition
                   hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 hover:text-white hover:scale-105
                   focus:outline-none focus:ring-2 focus:ring-purple-500"
         >
             Login
+        </a>
+        <br>
+        <a href="/user/signup"
+           class="inline-block px-6 py-3 rounded-lg bg-white text-black font-semibold shadow transition
+                  hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 hover:text-white hover:scale-105
+                  focus:outline-none focus:ring-2 focus:ring-purple-500"
+        >
+            Signup
+        </a>
+
+        <br>
+        <a href="/user/moodboard"
+           class="inline-block px-6 py-3 rounded-lg bg-white text-black font-semibold shadow transition
+                  hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 hover:text-white hover:scale-105
+                  focus:outline-none focus:ring-2 focus:ring-purple-500"
+        >
+            Moodboard
+            
+        </a>
+        <a href="/user/roadmap"
+           class="inline-block px-6 py-3 rounded-lg bg-white text-black font-semibold shadow transition
+                  hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 hover:text-white hover:scale-105
+                  focus:outline-none focus:ring-2 focus:ring-purple-500"
+        >
+            Roadmap
+            
         </a>
     </div>
     <footer>
