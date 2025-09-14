@@ -1,3 +1,8 @@
+<?php
+if (session()->getFlashdata('error')) {
+    echo '<div class="bg-red-500 text-white p-4 rounded mb-4 text-center">' . session()->getFlashdata('error') . '</div>';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

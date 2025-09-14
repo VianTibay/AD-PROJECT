@@ -8,6 +8,9 @@ class User extends BaseController
 {
     public function landing(): string
     {
+
+
+
         return view('user/landing');
     }
   
