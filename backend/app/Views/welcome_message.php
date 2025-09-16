@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>links</title>
 </head>
@@ -10,18 +8,12 @@
     <div class="container mx-auto px-4 py-10 text-center flex-1 flex flex-col justify-center items-center">
         <h1 class="text-4xl font-bold mb-4 tracking-wide">Welcome to AD-Project</h1>
         <p class="text-lg mb-8 text-gray-200">Your trusted platform for modern memorial services.</p>
-        <a href="/user"
-           class="inline-block px-6 py-3 rounded-lg bg-white text-black font-semibold shadow transition
-                  hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 hover:text-white hover:scale-105
-                  focus:outline-none focus:ring-2 focus:ring-purple-500"
-        >
-            landing_page
-        </a>
+
+
+       <?= view("Components/buttons/btn.php") ?>
     </div>
-    <footer>
-        <div class="container mx-auto px-4 py-4 text-center text-gray-400 text-sm">
-            &copy; <?= date('Y') ?> AD-Project. All rights reserved.
-        </div>
-    </footer>
+    <div class="footer">
+        <?= view("Components/buttons/footer.php") ?>
+    </div>
 </body>
 </html>
