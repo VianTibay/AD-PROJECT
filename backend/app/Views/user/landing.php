@@ -54,9 +54,7 @@
         </a>
     </div>
     <footer>
-        <div class="container mx-auto px-4 py-4 text-center text-gray-400 text-sm">
-            &copy; <?= date('Y') ?> AD-Project. All rights reserved.
-        </div>
+       <?= view('/Components/buttons/footer') ?>
     </footer>
 </body>
 </html>
