@@ -8,7 +8,7 @@
     <!-- optional <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100"> -->
   </a>
 <!-- * Title Section -->
-  <h3 align="center">AD - CI4 AD-PROJECT</h3>
+  <h3 align="center">AD-PROJECT</h3>
 </div>
 
 <!-- * Description Section -->
